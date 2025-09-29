@@ -1,0 +1,115 @@
+.addbutton {
+  padding: var(--spacings-s);
+  color: var(--colors-white);
+  background-color: lightgreen;
+  border: 1px solid var(--colors-white);
+  border-radius: var(--radius-s);
+  margin: 0 var(--spacings-xs);
+  width: 100px;
+}
+
+.addbutton:hover {
+  cursor: pointer;
+  background-color: green;
+  size: 110px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.editbutton {
+  padding: var(--spacings-s);
+  color: white;
+  background-color: lightskyblue;
+  border: 1px solid var(--colors-white);
+  border-radius: var(--radius-s);
+  width: 100px;
+}
+
+.editbutton:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  width: 110px;
+}
+
+.removebutton {
+  padding: var(--spacings-s);
+  color: white;
+  background-color: red;
+  border: 1px solid var(--colors-white);
+  border-radius: var(--radius-s);
+  width: 100px;
+  margin-left: 10px;
+}
+
+.removebutton:hover {
+  cursor: pointer;
+  background-color: darkred;
+  width: 110px;
+}
+
+.savebutton {
+  padding: var(--spacings-s);
+  color: white;
+  background-color: blue;
+  border: 1px solid var(--colors-white);
+  border-radius: var(--radius-s);
+  margin-left: 20px;
+  width: 100px;
+}
+
+.savebutton:hover {
+  cursor: pointer;
+  background-color: darkblue;
+  width: 110px;
+}
+
+.cancelbutton {
+  padding: var(--spacings-s);
+  color: white;
+  background-color: red;
+  border: 1px solid var(--colors-white);
+  border-radius: var(--radius-s);
+  margin-left: 20px;
+  width: 100px;
+}
+
+.cancelbutton:hover {
+  cursor: pointer;
+  background-color: darkred;
+  width: 110px;
+}
+
+.loginbutton {
+  padding: var(--spacings-s);
+  color: white;
+  background-color: orange;
+  border: 1px solid var(--colors-white);
+  border-radius: var(--radius-s);
+  width: 100px;
+}
+
+.loginbutton:hover {
+  cursor: pointer;
+  background-color: rgba(141, 78, 0, 0.959);
+  width: 110px;
+}
+
+.logoutbutton {
+  padding: var(--spacings-s);
+  color: white;
+  background-color: red;
+  border: 1px solid var(--colors-white);
+  border-radius: var(--radius-s);
+  width: 100px;
+  float: right;
+  margin-left: 20px;
+}
+
+.logoutbutton:hover {
+  cursor: pointer;
+  background-color: darkred;
+  width: 110px;
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "@fontsource/inter";
+
+body {
+  font-family: Inter;
+  font-size: 16px;
+  background-color: #f7f9fc;
+}

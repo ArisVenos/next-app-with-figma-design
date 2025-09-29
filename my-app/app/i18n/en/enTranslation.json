@@ -1,0 +1,34 @@
+{
+  "header": "Todo List",
+  "languageButton": "Change language",
+  "logOutButton": "Log out",
+  "Active": "active",
+  "Inactive": "inactive",
+  "id": "#",
+  "status": "STATUS",
+  "name": "NAME",
+  "description": "DESCRIPTION",
+  "rate": "RATE",
+  "balance": "BALANCE",
+  "deposit": "DEPOSIT",
+  "add customer": "Add customer",
+  "edit": "Edit",
+  "remove": "Remove",
+  "save": "Save",
+  "cancel": "Cancel",
+  "login": "Login",
+  "confirm": "Confirm",
+  "actions": "ACTIONS",
+  "removeTodo": {
+    "title": "Remove Todo?",
+    "description": "Are you sure you want to remove todo with id: {{id}}"
+  },
+  "logOut": {
+    "title": "Log out?",
+    "description": "Are you sure you want to log out?"
+  },
+  "loading": "loading...",
+  "todoAdded": "Todo added succesfully!",
+  "todoSaved": "Todo updated succesfully",
+  "todoRemoved": "Todo removed succesfully"
+}

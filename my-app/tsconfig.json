@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // You can use "ES6" or higher
+    "module": "esnext", // Use the appropriate module system like "ESNext" for modern setups
+    "jsx": "preserve", // Enables JSX and ensures compatibility with React 17+
+    "strict": true, // Optional: Enables strict type-checking options
+    "moduleResolution": "node", // Ensures modules are resolved in a node-style way
+    "esModuleInterop": true, // Ensures compatibility with commonjs modules
+    "skipLibCheck": true, // Optional: Speeds up type checking by skipping type-checks on declaration files
+    "forceConsistentCasingInFileNames": true, // Optional: Enforces case-sensitivity in file names
+    "resolveJsonModule": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
